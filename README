@@ -1,3 +1,11 @@
+
+這個項目是爲了學習和練習u-boot移植, 目前第一階段的學習基於此2010.09分支,
+增加6410相關代碼, 目標是將u-boot移植到友善之臂Tiny6410開發板.
+
+2018.03.09	目前已經完成u-boot第一階段lowlevel_init.S匯編代碼LED部分的修改,
+		成功點亮Tiny6410核心板上的LED, 循環閃爍兩次後繼續進行u-boot接
+		下來的工作.
+
 #
 # (C) Copyright 2000 - 2009
 # Wolfgang Denk, DENX Software Engineering, wd@denx.de.
